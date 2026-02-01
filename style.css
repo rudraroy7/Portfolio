@@ -1,3 +1,6 @@
+* {
+    max-width: 100%;
+}
 :root {
     --primary: #2c75b5b0;
     --secondary: #000000;
@@ -706,6 +709,18 @@ footer {
     
     .section-title h2 {
         font-size: 1.5rem;
+    }
+}
+
+.design {
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    .circle:nth-child(1){
+        width: 20rem;
+    }
+    .circle:nth-child(2){
+        width: 14rem;
     }
 }
 
