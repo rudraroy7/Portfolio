@@ -38,6 +38,7 @@ body {
     background-color: #e4d08b;
     color: var(--dark);
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 .container {
@@ -707,3 +708,4 @@ footer {
         font-size: 1.5rem;
     }
 }
+
